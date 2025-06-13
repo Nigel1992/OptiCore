@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="service.opti.core"
+       name="OptiCore"
+       version="1.0.0"
+       provider-name="OptiCore">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.requests" version="2.22.0"/>
+    </requires>
+    <extension point="xbmc.service" library="service.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>linux</platform>
+        <platform>linuxarm</platform>
+        <summary>Performance optimization service for LibreELEC/CoreELEC</summary>
+        <description>Optimizes LibreELEC performance by:
+- Clearing Kodi and system cache
+- Managing YouTube cache
+- Providing overclock control
+- Optional auto-clean mode</description>
+        <license>GPL-2.0-or-later</license>
+        <forum>https://forum.libreelec.tv</forum>
+        <website>https://github.com/Nigel1992/OptiCore</website>
+        <email>thedjskywalker@gmail.com</email>
+        <source>https://github.com/Nigel1992/OptiCore</source>
+    </extension>
+</addon> 

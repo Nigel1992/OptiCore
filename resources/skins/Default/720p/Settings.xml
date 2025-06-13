@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<window type="dialog" id="1000">
+    <defaultcontrol>100</defaultcontrol>
+    <allowoverlay>yes</allowoverlay>
+    <coordinates>
+        <system>1</system>
+        <posx>center</posx>
+        <posy>center</posy>
+    </coordinates>
+    <controls>
+        <!-- Header -->
+        <control type="label">
+            <description>Header</description>
+            <posx>50</posx>
+            <posy>20</posy>
+            <width>620</width>
+            <height>40</height>
+            <font>font13</font>
+            <label>OptiCore Settings</label>
+            <textcolor>FFFFFFFF</textcolor>
+        </control>
+
+        <!-- Auto Clean Settings -->
+        <control type="group">
+            <description>Auto Clean Settings</description>
+            <posx>50</posx>
+            <posy>80</posy>
+            <width>620</width>
+            <height>100</height>
+            
+            <control type="label">
+                <description>Auto Clean Label</description>
+                <posx>0</posx>
+                <posy>0</posy>
+                <width>400</width>
+                <height>30</height>
+                <label>Enable Auto Clean</label>
+                <textcolor>FFFFFFFF</textcolor>
+            </control>
+            
+            <control type="radiobutton" id="100">
+                <description>Auto Clean Toggle</description>
+                <posx>400</posx>
+                <posy>0</posy>
+                <width>220</width>
+                <height>30</height>
+                <label>Enabled</label>
+                <textcolor>FFFFFFFF</textcolor>
+            </control>
+            
+            <control type="label">
+                <description>Clean Interval Label</description>
+                <posx>0</posx>
+                <posy>40</posy>
+                <width>400</width>
+                <height>30</height>
+                <label>Clean Interval (hours)</label>
+                <textcolor>FFFFFFFF</textcolor>
+            </control>
+            
+            <control type="edit" id="101">
+                <description>Clean Interval Input</description>
+                <posx>400</posx>
+                <posy>40</posy>
+                <width>220</width>
+                <height>30</height>
+                <textcolor>FFFFFFFF</textcolor>
+            </control>
+        </control>
+
+        <!-- Overclock Settings -->
+        <control type="group">
+            <description>Overclock Settings</description>
+            <posx>50</posx>
+            <posy>200</posy>
+            <width>620</width>
+            <height>250</height>
+            
+            <control type="label">
+                <description>Overclock Label</description>
+                <posx>0</posx>
+                <posy>0</posy>
+                <width>400</width>
+                <height>30</height>
+                <label>Enable Overclock</label>
+                <textcolor>FFFFFFFF</textcolor>
+            </control>
+            
+            <control type="radiobutton" id="102">
+                <description>Overclock Toggle</description>
+                <posx>400</posx>
+                <posy>0</posy>
+                <width>220</width>
+                <height>30</height>
+                <label>Enabled</label>
+                <textcolor>FFFFFFFF</textcolor>
+            </control>
+            
+            <control type="label">
+                <description>ARM Frequency Label</description>
+                <posx>0</posx>
+                <posy>40</posy>
+                <width>400</width>
+                <height>30</height>
+                <label>ARM Frequency (MHz)</label>
+                <textcolor>FFFFFFFF</textcolor>
+            </control>
+            
+            <control type="edit" id="103">
+                <description>ARM Frequency Input</description>
+                <posx>400</posx>
+                <posy>40</posy>
+                <width>220</width>
+                <height>30</height>
+                <textcolor>FFFFFFFF</textcolor>
+            </control>
+            
+            <control type="label">
+                <description>GPU Frequency Label</description>
+                <posx>0</posx>
+                <posy>80</posy>
+                <width>400</width>
+                <height>30</height>
+                <label>GPU Frequency (MHz)</label>
+                <textcolor>FFFFFFFF</textcolor>
+            </control>
+            
+            <control type="edit" id="104">
+                <description>GPU Frequency Input</description>
+                <posx>400</posx>
+                <posy>80</posy>
+                <width>220</width>
+                <height>30</height>
+                <textcolor>FFFFFFFF</textcolor>
+            </control>
+            
+            <control type="label">
+                <description>Core Frequency Label</description>
+                <posx>0</posx>
+                <posy>120</posy>
+                <width>400</width>
+                <height>30</height>
+                <label>Core Frequency (MHz)</label>
+                <textcolor>FFFFFFFF</textcolor>
+            </control>
+            
+            <control type="edit" id="105">
+                <description>Core Frequency Input</description>
+                <posx>400</posx>
+                <posy>120</posy>
+                <width>220</width>
+                <height>30</height>
+                <textcolor>FFFFFFFF</textcolor>
+            </control>
+            
+            <control type="label">
+                <description>SDRAM Frequency Label</description>
+                <posx>0</posx>
+                <posy>160</posy>
+                <width>400</width>
+                <height>30</height>
+                <label>SDRAM Frequency (MHz)</label>
+                <textcolor>FFFFFFFF</textcolor>
+            </control>
+            
+            <control type="edit" id="106">
+                <description>SDRAM Frequency Input</description>
+                <posx>400</posx>
+                <posy>160</posy>
+                <width>220</width>
+                <height>30</height>
+                <textcolor>FFFFFFFF</textcolor>
+            </control>
+        </control>
+
+        <!-- Buttons -->
+        <control type="button" id="300">
+            <description>Clear Cache Button</description>
+            <posx>50</posx>
+            <posy>470</posy>
+            <width>200</width>
+            <height>40</height>
+            <label>Clear Cache Now</label>
+            <textcolor>FFFFFFFF</textcolor>
+        </control>
+        
+        <control type="button" id="200">
+            <description>Save Button</description>
+            <posx>270</posx>
+            <posy>470</posy>
+            <width>200</width>
+            <height>40</height>
+            <label>Save</label>
+            <textcolor>FFFFFFFF</textcolor>
+        </control>
+        
+        <control type="button" id="201">
+            <description>Cancel Button</description>
+            <posx>490</posx>
+            <posy>470</posy>
+            <width>200</width>
+            <height>40</height>
+            <label>Cancel</label>
+            <textcolor>FFFFFFFF</textcolor>
+        </control>
+    </controls>
+</window> 
