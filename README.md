@@ -5,6 +5,8 @@
 
 # 🚀 OptiCore
 
+[![Vibe Coded](https://img.shields.io/badge/Vibe_Coded-✨-8A2BE2?style=for-the-badge)](https://github.com)
+
 **Performance Optimization Addon for LibreELEC/CoreELEC**
 
 [![LibreELEC](https://img.shields.io/badge/LibreELEC-Supported-brightgreen?logo=raspberry-pi)](https://libreelec.tv)
